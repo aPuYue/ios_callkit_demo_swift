@@ -12,8 +12,8 @@
 		635375861FA5382800F60E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635375841FA5382800F60E21 /* Main.storyboard */; };
 		635375881FA5382800F60E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635375871FA5382800F60E21 /* Assets.xcassets */; };
 		6353758B1FA5382800F60E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635375891FA5382800F60E21 /* LaunchScreen.storyboard */; };
-		B42BD73124C55C2A0071BCE3 /* call_audio_calling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B42BD73024C55C2A0071BCE3 /* call_audio_calling.mp3 */; };
-		B42BD73324C58F630071BCE3 /* linkit_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B42BD73224C58F630071BCE3 /* linkit_sound.wav */; };
+		B42BD73E24C59CC60071BCE3 /* call_audio_calling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B42BD73C24C59CC60071BCE3 /* call_audio_calling.mp3 */; };
+		B42BD73F24C59CC60071BCE3 /* linkit_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B42BD73D24C59CC60071BCE3 /* linkit_sound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		635375871FA5382800F60E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6353758A1FA5382800F60E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6353758C1FA5382800F60E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B42BD73024C55C2A0071BCE3 /* call_audio_calling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = call_audio_calling.mp3; path = ../../../../project/Linkit_iOS/Linkit/sounds/call_audio_calling.mp3; sourceTree = "<group>"; };
-		B42BD73224C58F630071BCE3 /* linkit_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = linkit_sound.wav; path = ../../../../project/Linkit_iOS/Linkit/sounds/linkit_sound.wav; sourceTree = "<group>"; };
+		B42BD73C24C59CC60071BCE3 /* call_audio_calling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = call_audio_calling.mp3; sourceTree = "<group>"; };
+		B42BD73D24C59CC60071BCE3 /* linkit_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = linkit_sound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				635375801FA5382800F60E21 /* AppDelegate.swift */,
 				635375821FA5382800F60E21 /* ViewController.swift */,
+				B42BD73C24C59CC60071BCE3 /* call_audio_calling.mp3 */,
+				B42BD73D24C59CC60071BCE3 /* linkit_sound.wav */,
 				635375841FA5382800F60E21 /* Main.storyboard */,
-				B42BD73024C55C2A0071BCE3 /* call_audio_calling.mp3 */,
-				B42BD73224C58F630071BCE3 /* linkit_sound.wav */,
 				635375871FA5382800F60E21 /* Assets.xcassets */,
 				635375891FA5382800F60E21 /* LaunchScreen.storyboard */,
 				6353758C1FA5382800F60E21 /* Info.plist */,
@@ -129,9 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6353758B1FA5382800F60E21 /* LaunchScreen.storyboard in Resources */,
-				B42BD73324C58F630071BCE3 /* linkit_sound.wav in Resources */,
+				B42BD73F24C59CC60071BCE3 /* linkit_sound.wav in Resources */,
 				635375881FA5382800F60E21 /* Assets.xcassets in Resources */,
-				B42BD73124C55C2A0071BCE3 /* call_audio_calling.mp3 in Resources */,
+				B42BD73E24C59CC60071BCE3 /* call_audio_calling.mp3 in Resources */,
 				635375861FA5382800F60E21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
