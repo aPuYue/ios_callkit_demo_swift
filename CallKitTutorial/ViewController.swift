@@ -18,8 +18,8 @@ class ViewController: UIViewController, CXProviderDelegate {
         
         DispatchQueue.main.asyncAfter(wallDeadline: DispatchWallTime.now() + 5) {
             provider.reportOutgoingCall(with: controller.callObserver.calls[0].uuid, connectedAt: nil)
+//            self.startRingtoneIfOutgoing(ringtoneName: "call_audio_calling.mp3")
         }
-        //            self.startRingtoneIfOutgoing(ringtoneName: "call_audio_calling.mp3")
     }
     
     func providerDidReset(_ provider: CXProvider) {
@@ -39,7 +39,7 @@ class ViewController: UIViewController, CXProviderDelegate {
     }
     
     func provider(_ provider: CXProvider, perform action: CXSetMutedCallAction) {
-        action.fulfill() // Disable button
+        action.fulfill()
     }
     
     func provider(_ provider: CXProvider, perform action: CXSetHeldCallAction) {
@@ -60,7 +60,7 @@ class ViewController: UIViewController, CXProviderDelegate {
     
     func provider(_ provider: CXProvider, didActivate audioSession: AVAudioSession) {
         do {
-            try audioSession.overrideOutputAudioPort(.speaker)
+            try audioSession.overrideOutputAudioPort(.none)
             self.startRingtoneIfOutgoing(ringtoneName: "linkit_sound.wav")
         } catch {
         }
